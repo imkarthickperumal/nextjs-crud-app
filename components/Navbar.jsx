@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center bg-slate-800 px-8 py-3">
+    <nav className="flex justify-between items-center bg-slate-800 px-8 py-3 rounded">
       <Link className="text-white font-bold" href={"/"}>CRUD APP</Link>
-      <Link className="bg-white p-2 rounded" href={"/apptopic"}>Add Topic</Link>
+      <Link className="bg-white p-2 rounded" href={"/appTopic"}>Add Topic</Link>
     </nav>
   );
 }
